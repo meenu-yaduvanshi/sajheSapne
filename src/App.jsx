@@ -1,4 +1,5 @@
 import { useState } from 'react'
+// import Home from './components/Home'
 import Footer from './components/Footer'
 import './styles/global.css'
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      {/* <Home/> */}
       <Footer />
     </>
   )
