@@ -1,66 +1,68 @@
 import React from 'react';
-import '../styles/home.css'
+import '../styles/home.css';
+// import Footer from "./Footer"
+
 
 const Home = () => {
 
     return (
         <>
+            {/* <img className='sapnacenter-img' src="src/assets/homeImg/sapnacentre.png" alt="" />*/}
+            <img src="https://placehold.co/1820x600" alt="" />
             <div className="custom-layout">
 
-                {/* First Section: Image Card and About Section */}
-                <div className="first-section">
-                    <div className="image-card" style={{ backgroundImage: "url('src/assets/homeImg/img1.jpeg    ')" }}></div>
-                    <div className="about-section">
-                        <h2>About Sajhe Sapne</h2>
-                        <p>Empowering a generation of marginalized young women to learn, earn, & excel in the modern workforce.</p>
-                        <button className="learn-more-btn">Learn more about our program</button>
+                <div className="container">
+                    <div className="section about-section">
+                        <div className="image-placeholder"></div>
+                        <div className="text-content">
+                            <h2>About Sajhe Sapne</h2>
+                            <p>Empowering a generation of marginalized young rural women to learn, earn, & excel in the modern workforce.</p>
+                            <button>Learn more about our program</button>
+                        </div>
                     </div>
                 </div>
 
-                {/* Middle Text Banner */}
                 <div className="middle-banner">
-                    <p>हमारी चाहत पूरी होगी जिसमें तुम्हें नहीं लाएंगे....</p>
+                    <p>सच्ची पक्की गुणी ज़िद्दी दिलकी क्यों क्यों क्यों…..</p>
                 </div>
-
-                {/* Second Section: Sapnewaali Information */}
-                <div className="second-section">
-                    <div className="who-section">
-                        <h2>Who is a Sapnewaali?</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <button className="learn-more-btn">Get Involved</button>
+                <div className="container">
+                    <div className="section sapnewaali-section">
+                        <div className="text-content">
+                            <h2>Who is a Sapnewaali?</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <button>Get Involved</button>
+                        </div>
+                        <div className="image-placeholder"></div>   
                     </div>
-                    <div className="image-card" style={{ backgroundImage: "url('src/assets/homeImg/img1.jpeg')" }}></div>
                 </div>
 
-                {/* Text Banner */}
-                <div className="text-banner">
+
+                <div className="text-banner darkblue">
                     <p>This is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div className="text-banner">
+                <div className='devide-darkLigthBule'>
+
+                </div>
+                <div className="text-banner lightblue">
                     <p>This is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
 
-                {/* Supporters Section
                 <div className="supporters-section">
-                    <h3>Our Supporters and Funders</h3>
-                    <div className="supporters-logos"> */}
-                        {/* <img src="/path/to/meta-logo.png" alt="Meta" />
+                    <h1>Our Supporters and Funders</h1>
+                    {/* <div className="supporters-logos"> */}
+                    {/* <img src="/path/to/meta-logo.png" alt="Meta" />
                         <img src="/path/to/samjika-logo.png" alt="Samjika" />
                         <img src="/path/to/capri-logo.png" alt="CAPRI" />
                         <img src="/path/to/parwah-logo.png" alt="Parwah" />
                         <img src="/path/to/cnt-logo.png" alt="CNT" /> */}
-                {/* <img src="src/assets/partnerships.png" alt="" /> */}
-                {/* </div>
-                </div> */}
-                <img className='supports-img' src="src/assets/partnerships.png" alt="" />
-
-                {/* Video Section */}
-                <div className="video-section">
-                    <img src="/path/to/video-thumbnail.jpg" alt="Video thumbnail" />
-                    <p>Fire in the Belly video</p>
+                    {/* <img src="src/assets/partnerships.png" alt="" /> */}
+                    {/* </div> */}
                 </div>
-
+                {/* <img className='blue-nature' src="src/assets/homeImg/blueNature.png" alt="blue nature img" /> */}
+                <img src="https://placehold.co/1820x300" alt="" />
+                <img src="https://placehold.co/1820x600" alt="" />
             </div>
+{/* <Footer/> */}
         </>
     )
 }

@@ -1,0 +1,224 @@
+/* @import url('fontawesome-free/css/all.min.css'); */
+/* https://fontawesome.com/search */
+
+
+/* Container for everything */
+footer {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #EDEADF;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2% 7% 0 7%;
+    min-height: 300px;
+}
+
+/* Newsletter form */
+.newsletter {
+    margin-right: 20px;
+    margin: 0;
+    margin-left: 30px;
+
+}
+
+.newsletter h3 {
+    font-size: 40px;
+    margin-top: -1px;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.email-input {
+    /* margin-top: 20px; */
+    padding: 10px;
+    width: 68%;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.submit-btn {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    padding: 10px 20px 10px 20px;
+
+}
+
+.submit-btn:hover {
+    background-color: orange;
+}
+
+/* Links section */
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 4px;
+    color: black;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.links .story li {
+    margin-top: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* contact container */
+.contact-container {
+    width: 14%;
+}
+
+/* .contact-container .contact-us {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: -17px;
+} */
+.contact-container div ul .contact-us {
+    font-weight: 500;
+    font-size: 20px;
+    /* margin-bottom: -17px; */
+    /* line-height: 36px; */
+    /* margin-bottom: 4px; */
+}
+
+.contact-container div ul li {
+    line-height: 40px;
+    text-align: start;
+    list-style-type: none;
+    /* margin-top: -1px;  */
+    font-size: 22;
+}
+
+.contact-container div ul {
+    padding-left: 0;
+}
+
+/* Contact section */
+.contact h4 {
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: black;
+}
+
+.social-icons i:hover {
+    color: blue;
+}
+
+.hr {
+    width: 99%;
+    margin-bottom: -220px;
+}
+
+.copyrights ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyrights {
+    width: 99%;
+    /* margin: auto; */
+    /* padding: 0; */
+}
+
+
+.copyrights ul li {
+    list-style: none;
+    /* margin-left: 35px; */
+padding-left: 15px;}
+
+.copyrights ul li a{
+    font-weight: 300;
+}
+
+.copyrights ul li:not(:first-child)::before {
+    content: "•"; /* Add bullet manually between items */
+    margin-right: 10px;
+    color: black;
+}
+
+.no-bullet::before {
+    content: ''; /* No bullet for the first item */
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align items vertically */
+    }
+
+    /* Adjust the heading size for medium screens */
+    .newsletter h3 {
+        font-size: 30px;
+    }
+
+    /* Make email input and button full width */
+    .email-input {
+        width: 100%;
+        margin-bottom: 10px;
+        /* Add space for better layout on small screens */
+    }
+
+    .submit-btn {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    /* Center contact icons */
+    .social-icons i {
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    /* Smaller mobile screens */
+    .newsletter h3 {
+        font-size: 25px;
+    }
+
+    /* Further adjustments for very small screens */
+    .email-input,
+    .submit-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .submit-btn {
+        font-size: 1em;
+    }
+
+    /* Social Icons smaller */
+    .social-icons i {
+        font-size: 18px;
+        margin: 5px;
+    }
+}
