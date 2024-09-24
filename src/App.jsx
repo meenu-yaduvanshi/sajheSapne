@@ -1,15 +1,16 @@
-import { useState } from 'react'
-// import Home from './components/Home'
-import Footer from './components/Footer'
-import './styles/global.css'
+
+import './App.css'
+import Nav from './components/Nav'
+import * as React from 'react';
+import Home from './components/Home';
+
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
-      {/* <Home/> */}
-      <Footer />
+      <Nav />
+      <Home/>
+
     </>
   )
 }
