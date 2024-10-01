@@ -1,0 +1,39 @@
+.container {
+    height: 200px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+button {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 48px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.images {
+    /* object-fit: cover; */
+    /* width: 60%;
+    height: 100%;  */
+    height: 100px;
+    width: 100px;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    margin: 2px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70%;
+    width: 250px; */
+    background-color: blueviolet;
+}
