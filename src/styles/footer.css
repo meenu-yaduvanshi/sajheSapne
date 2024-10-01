@@ -39,13 +39,12 @@ footer {
 }
 
 .submit-btn {
-    padding: 8px;
+    padding: 10px;
     cursor: pointer;
     font-size: 0.9em;
     border-radius: 9px;
     font-family: 'Poppins';
     padding: 10px 20px 10px 20px;
-
 }
 
 .submit-btn:hover {
