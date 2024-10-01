@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
         <>
-            <div id='banner-con'>
+            {/* <div id='banner-con'>
                 <div id='bn-text-con'>
                     <p>One Day.. <br />
                         One day, women of Indian villages will be known <br />
@@ -18,7 +18,7 @@ const Home = () => {
                     </p>
                 </div>
                 <img className='banner-image' src="../src/assets/bn.jpg" alt="" />
-            </div>
+            </div> */}
         </>
     )
 }
