@@ -2,7 +2,7 @@
 import './App.css'
 import Nav from './components/Nav'
 import * as React from 'react';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 // import Home from './components/Home';
 
 
