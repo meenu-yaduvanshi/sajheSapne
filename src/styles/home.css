@@ -1,206 +1,74 @@
-.banner-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin: auto;
-  /* width: 70%;
-  display: block;
-  margin: auto;
-  padding: 5%; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* content Container */
+.container{
+    padding: 10%;
+    text-align: center;
+    font-family: 'Poppins';
 }
 
-#bn-text-con {
-  /* background-color: aqua; */
-  width: 50%;
-  position: absolute;
-  margin-left: 2.7%;
+.container div p{
+   color: #323437
 }
 
-#bn-text-con p {
-  font-family: "Poppins", regular;
-  font-size: 1.5em;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-weight: bold;
+.container div h3{
+    color: #EE3161
+ }
+ 
 
-}
-
-.move{
-  font-weight: 400;
-  width: 50%;
-  margin-top: 3%;
-  font-family: 'Poppins';
-  background-color: #FFD20E;
-  /* Button color */
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.3em;
-  cursor: pointer;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  /* Shadow effect */
-  transition: all 0.3s ease;
-}
-.move:hover {
-  background-color: white;
-  color: #FFD20E;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-  transform: translateY(-3px);
-}
-
-.move:active {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  /* Smaller shadow on click */
-  transform: translateY(2px);
-  /* Slightly lowers the button on click */
-}
-.know-more-sapna{
-  font-weight: 400;
-  width: 50%;
-  font-family: 'Poppins';
-  margin-top: 3%;
-  background-color: #FFD20E;
-  /* Button color */
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.3em;
-  cursor: pointer;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  /* Shadow effect */
-  transition: all 0.3s ease;
-}
-
-.know-more-sapna:hover {
-  background-color: white;
-  color: #FFD20E;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-  transform: translateY(-3px);
-}
-
-.know-more-sapna:active {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  /* Smaller shadow on click */
-  transform: translateY(2px);
-  /* Slightly lowers the button on click */
-}
+  .button {
+    color: #2A3787;
+    font-weight: 500;
+    font-family: 'Poppins';
+    background-color: #FFD20E;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.7em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 19px;
+  }
+  
+  /* Hover Effect for Desktop */
+  .button:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  /* Active Effect for Desktop and Mobile */
+  .button:active {
+    background-color: #FFD20E; /* Mobile पर क्लिक होने पर कलर को रिस्टोर करें */
+    color: #2A3787;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+  }
+  
+  /* Specific styles for mobile screens */
+  @media (hover: none) and (pointer: coarse) {
+    .button {
+      background-color: #FFD20E; /* मोबाइल पर कलर को सेट करें */
+      color: #2A3787;
+    }
+  
+    .button:active {
+      background-color: white; /* मोबाइल पर क्लिक करने पर कलर बदलें */
+      color: #2A3787;
+    }
+  }
+  
 
 
 
-.child-parent{
-  margin: 3%;
-  /* background-color: bisque; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 900px 900px; */
-}
 
 
 
-.child p{
-  font-family: "Poppins", regular;
-  font-size: 1.3em;
-  padding: 0;
-  margin: 0;
-}
+  /* Home simran banner img style */
 
-#real-story-p{
-  font-family: "Poppins", regular;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  color: rgb(243, 45, 154);
-}
-#bring-rural{
-  font-family: "Poppins", regular;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  color: rgb(243, 45, 154);
-}
-
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 200px 200px 200px; */
-  gap: 40px;
-  /* margin: 3%; */
-  width: 80%;
-  margin: auto;
-}
-
-/* .grid-container-child{
-  border: 1px solid black;
-} */
-#child-num-3{
-  grid-row-start: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  text-align: left;
-  width: 70%;
-  margin: auto;
-}
-
-/* #child-num-4{
-  grid-row-start: 1;
-  grid-row-end: 3;
-} */
-
-.grid-container-child p{
-  font-family: "Poppins", regular;
-  font-size: 1.3em;
-  padding: 0;
-  margin: 0;
-}
-
-.partner-logo-container{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  /* background-color: #FFD20E; */
-}
-
-/* #png-1-img{
-  width: 100%;
-  min-height: 100px;
-} */
-
-.image-container {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  /* overflow: hidden; */
-  margin: 3%;
-}
-
-.image-container img {
-  max-width: 100%;
-  max-height: 100%;
-  /* Optionally set min-width or min-height if desired */
-}
-
-#img-2{
-  height: 60px;
-  width: 300px;
-}
-
-#img-4{
-  height: 70px;
-}
-
-#img-1{
-  height: 70px;
-}
-
-#img-3{
-  height: 150px;
-}
-
+  

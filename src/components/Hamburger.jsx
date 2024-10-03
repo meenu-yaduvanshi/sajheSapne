@@ -21,11 +21,11 @@ const Hamburger = () => {
             {isOpen && (
                 <div className="menu">
                     <ul>
-                        <li>Power of Learning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', textAlign:'end', marginLeft:'52.3%',fontSize:'12px' }} /></li>
-                        <li>Power of Earning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'55%', fontSize:'12px' }} /></li>
-                        <li>Power of Collective <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'49.5%', fontSize:'12px' }} /></li>
-                        <li>Agency Building <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'56.5%', fontSize:'12px' }} /></li>
-                        <li>Get Involved <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'65.3%', fontSize:'12px' }} /></li>
+                        <li>Power of Learning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', textAlign:'end', marginLeft:'44%',fontSize:'12px' }} /></li>
+                        <li>Power of Earning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'47%', fontSize:'12px' }} /></li>
+                        <li>Power of Collective <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'40.5%', fontSize:'12px' }} /></li>
+                        <li>Agency Building <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'48.5%', fontSize:'12px' }} /></li>
+                        <li>Get Involved <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'58.5%', fontSize:'12px' }} /></li>
                     </ul>
                     <div className='contact-menu'>
                         <ul>
