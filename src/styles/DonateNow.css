@@ -1,0 +1,24 @@
+/* DonateButton.css */
+.donate-button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 15px 30px; /* Vertical and horizontal padding */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width on mobile */
+    max-width: 150px; /* Max width */
+    margin: 10px auto; /* Center alignment */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.donate-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+@media (min-width: 768px) {
+    .donate-button {
+        max-width: 200px; /* Smaller max width on larger screens */
+    }
+}
