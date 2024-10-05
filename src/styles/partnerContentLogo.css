@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.partner-contents-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 11%;
+    padding-right: 11%;
+    gap: 15px;
+    /* grid-template-rows: 200px; */
+  }
+  
+  .media-contents-container {
+    margin-top: 12%;
+    padding-bottom: 8%;
+  }
+  
+  .partner-contents-container div {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+  
+  .heading-innovate h1 {
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+    color: #EE3161;
+  
+  }
+  
+  #partner-h1 {
+    font-size: 1.4em;
+    color: #2A3787;
+    font-weight: 600;
+  }
+  
+  #partner-h2 {
+    font-size: 1.8em;
+  }
+  
+  .para-2 {
+    margin-top: 2%;
+  }
+  
+  p {
+    font-family: "Poppins", regular;
+    color: #222529;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .perks-hire {
+    font-weight: 400;
+    width: 75%;
+    font-family: 'Poppins';
+    background-color: #FFD20E;
+    /* Button color */
+    color: #2A3787;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+    transition: all 0.3s ease;
+  }
+  
+  #build-nation {
+    color: #EE3161;
+    font-weight: bold;
+  }
+  
+  .carousel-container {
+    /* border: 1px solid black; */
+    height: 100px;
+  }
+  
+  .media-carousel-container {
+    height: 80px;
+  }
+  
+  .perks-hire:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  .perks-hire:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* Smaller shadow on click */
+    transform: translateY(2px);
+    /* Slightly lowers the button on click */
+  }
+  
+  #media-reco {
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.4em;
+    color: #2A3787;
+    font-weight: 600;
+  }

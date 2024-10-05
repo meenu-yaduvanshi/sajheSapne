@@ -1,5 +1,6 @@
 import '../styles/nav.css'
 import Hamburger from './Hamburger'
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
@@ -7,7 +8,7 @@ function Nav() {
             <nav className="navbar">
                 <Hamburger/>
                 <img id='logo' src="../src/assets/logo.png" alt="logo" />
-                <button id='donte-now-button'>Donate Now</button>
+                <Link to={'/donatenow'}><button id='donte-now-button'>Donate Now </button></Link>
             </nav>
 
         </>

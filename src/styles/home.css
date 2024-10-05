@@ -1,74 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-
-
-/* content Container */
-.container{
-    padding: 10%;
-    text-align: center;
-    font-family: 'Poppins';
+.containers {
+  padding: 10%;
+  text-align: center;
+  font-family: 'Poppins';
 }
 
-.container div p{
-   color: #323437
+.containers div p {
+  color: #323437;
+  font-size: 0.9em;
 }
 
-.container div h3{
-    color: #EE3161
- }
- 
+.poem-para p span {
+  font-style: italic;
+}
 
+.headings {
+  margin-top: 30px;
+  margin-bottom: -12px;
+}
+
+#sajhe-sapne {
+  color: #EE3161;
+  margin-bottom: 5%;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 1.8em;
+}
+
+#kkk {
+  color: #2A3787;
+  font-size: 1.4em;
+  font-weight: 800;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+#campaign {
+  color: #EE3161;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 1.6em;
+  margin-bottom: 5%;
+
+}
+
+#launching {
+  color: #2A3787;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: Poppins;
+  margin: 0;
+}
+
+#livelihoods {
+  color: #EE3161;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 1.8em;
+  margin-bottom: 5%;
+
+}
+
+#finguring-out {
+  color: #2A3787;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: Poppins;
+  margin: 0;
+}
+
+#stories {
+  color: #EE3161;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 1.8em;
+  margin-bottom: 5%;
+
+}
+
+.button {
+  color: #2A3787;
+  font-weight: 400;
+  font-family: 'Poppins';
+  background-color: #FFD20E;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 9px;
+  font-size: 0.8em;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin-bottom: 16%;
+  margin-top: 14px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #2A3787;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  background-color: #FFD20E;
+  color: #2A3787;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+@media (hover: none) and (pointer: coarse) {
   .button {
-    color: #2A3787;
-    font-weight: 500;
-    font-family: 'Poppins';
     background-color: #FFD20E;
-    padding: 7px 14px;
-    border: none;
-    border-radius: 9px;
-    font-size: 0.7em;
-    cursor: pointer;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    margin-bottom: 19px;
+    color: #2A3787;
   }
-  
-  /* Hover Effect for Desktop */
-  .button:hover {
+
+  .button:active {
     background-color: white;
     color: #2A3787;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-    transform: translateY(-3px);
   }
-  
-  /* Active Effect for Desktop and Mobile */
-  .button:active {
-    background-color: #FFD20E; /* Mobile पर क्लिक होने पर कलर को रिस्टोर करें */
-    color: #2A3787;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    transform: translateY(2px);
-  }
-  
-  /* Specific styles for mobile screens */
-  @media (hover: none) and (pointer: coarse) {
-    .button {
-      background-color: #FFD20E; /* मोबाइल पर कलर को सेट करें */
-      color: #2A3787;
-    }
-  
-    .button:active {
-      background-color: white; /* मोबाइल पर क्लिक करने पर कलर बदलें */
-      color: #2A3787;
-    }
-  }
-  
+}
 
 
 
-
-
-
-  /* Home simran banner img style */
-
-  
