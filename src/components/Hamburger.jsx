@@ -21,6 +21,7 @@ const Hamburger = () => {
             {isOpen && (
                 <div className="menu">
                     <ul>
+                    <li>Crowdfunding <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', textAlign:'end', marginLeft:'53%',fontSize:'12px' }} /></li>
                         <li>Power of Learning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', textAlign:'end', marginLeft:'44%',fontSize:'12px' }} /></li>
                         <li>Power of Earning <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'47%', fontSize:'12px' }} /></li>
                         <li>Power of Collective <FontAwesomeIcon  icon={faChevronDown} style={{ color: 'white', marginLeft:'40.5%', fontSize:'12px' }} /></li>

@@ -1,13 +1,19 @@
 import React from 'react';
 import '../styles/home.css';
-import PartnerContentLogo from './PartnerContentLogo.jsx'
+import PartnerContentLogo from './PartnerContentLogo.jsx'; 
+import Carousel from './Carousel.jsx';
+import { prefix } from '@fortawesome/free-solid-svg-icons';
 
 
 const Home = () => {
 
     return (
         <>
-            <div className="containers">
+                {/* <div className='img-div'>
+                    <img src="../src/assets/homeCarousel/carousel-1.jpeg" alt="images" className='cr' width="340px" />
+                </div> */}
+                <Carousel/>
+                <div className="containers">
                 <div className='poem-para'>
                     <p>
                         One day, women of Indian villages<br />

@@ -1,11 +1,12 @@
 import "../styles/DonateNow.css"
 import React from 'react'
+import Footer from './Footer'
 
 function DonateNow() {
     return (
         <>
             <div className="text-container">
-                <div><h1 className="kkk-heading" id="kkk-h">काबिल, कमाऊ, कामयाब -</h1></div>
+                {/* <div><h1 className="kkk-heading" id="kkk-h">काबिल, कमाऊ, कामयाब -</h1></div> */}
                 <div><h1 className="kkk-heading">Support young rural women to Learn, Earn & Excel</h1></div>
                 <div><p className="donate-to-start">Donate to start a Kaabil, Kamau Kamyab campaign in your state Change the fabric of career choices for young rural women. </p><br /></div> 
                 <p className="donate-to-starts">We’ve made big bold bets because our community bets on big, bold hopes.  </p>
@@ -103,6 +104,7 @@ function DonateNow() {
                     
                 </form>
             </div>
+            <Footer/>
         </>
     )
 }

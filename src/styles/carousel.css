@@ -1,0 +1,71 @@
+.img-carousel-container {
+    /* margin-top: 200px; */
+    margin: 0 5% 0 5%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 30px auto; */
+    margin-top: 100px;
+    /* border: 2px solid #ddd; */
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    position: relative;
+  }
+  
+  .carousel-slide-div {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    height: 100%;
+    /* min-height: 320px; */
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s ease-in-out; /* Smooth transition */
+  }
+  
+  .carousel-image.active {
+    opacity: 1;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Slide-in animation from right */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%); /* Image starts from outside the right boundary */
+    }
+    100% {
+      transform: translateX(0); /* Image slides into its position */
+    }
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+  
