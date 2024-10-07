@@ -17,6 +17,9 @@ const router = createBrowserRouter([
   {
       path: "/donatenow",
       element: <DonateNow />, 
+  },{
+    path:"/homepage",
+    element: <App/>
   }
 
 

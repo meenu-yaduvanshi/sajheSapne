@@ -5,6 +5,9 @@ const Footer = () => {
 
     return (
         <>
+        {/* <div className='ft-illustratuin-div'>
+            <img src="src/assets/footerIllustration.png" alt="footer-illustration"/>
+        </div> */}
             <footer>
                 <div className='newsletter'>
                     <h3>Join our Newsletter</h3>

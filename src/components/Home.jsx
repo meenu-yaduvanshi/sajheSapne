@@ -36,7 +36,8 @@ const Home = () => {
                 </div>
 
                 <div className='kkk-div'>
-                    <h1 id='kkk' className='blue-head' style={{ fontFamily: 'Poppins, sans-serif' }}>काबिल, कमाऊ, कामयाब -</h1>
+                    <img src="../src/assets/kkkIllustration.png" alt="kkk-illustration" width="300" />
+                    {/* <h1 id='kkk' className='blue-head'>काबिल, कमाऊ, कामयाब -</h1> */}
                     <h1 id='campaign' className='pink-head'>Campaign of Change!</h1>
                     <p>
                         In many villages, when young women continue their education after 12th, get a high paying job, or choose her
@@ -53,6 +54,7 @@ const Home = () => {
                 </div>
 
                 <div className='launching-div'>
+                    <img src="src/assets/Methods-of-Change.jpeg" alt="" width="300" />
                     <h1 id='launching' className='blue-head'>Launching Careers,<br /> Not Livelihoods - </h1>
                     <h1 id='livelihoods' className='pink-head'>Method of Change!</h1>
                     <p>
