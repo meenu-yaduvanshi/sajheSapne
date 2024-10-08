@@ -6,22 +6,22 @@ const CarouselMedia = () => {
 
   const imgArray = [
     [
-      "../src/assets/mediaRecoImg/img1.png",
-      "../src/assets/mediaRecoImg/img2.jpg",
-      "../src/assets/mediaRecoImg/img3.jpg",
-      "../src/assets/mediaRecoImg/img4.png",
+      "mediaRecoImg/img1.png",
+      "mediaRecoImg/img2.jpg",
+      "mediaRecoImg/img3.jpg",
+      "mediaRecoImg/img4.png",
     ],
     [
-      "../src/assets/mediaRecoImg/img5.png",
-      "../src/assets/mediaRecoImg/img6.png",
-      "../src/assets/mediaRecoImg/img7.png",
-      "../src/assets/mediaRecoImg/img8.png",
+      "mediaRecoImg/img5.png",
+      "mediaRecoImg/img6.png",
+      "mediaRecoImg/img7.png",
+      "mediaRecoImg/img8.png",
     ],
     [
-      "../src/assets/mediaRecoImg/img9.png",
-      "../src/assets/mediaRecoImg/img10.png",
-      "../src/assets/mediaRecoImg/img11.png",
-      "../src/assets/mediaRecoImg/img12.png",
+      "mediaRecoImg/img9.png",
+      "mediaRecoImg/img10.png",
+      "mediaRecoImg/img11.png",
+      "mediaRecoImg/img12.png",
     ],
   ]
 

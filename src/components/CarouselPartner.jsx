@@ -7,52 +7,52 @@ const ImageCarousel = () => {
 
   const imgArray = [
     [
-      "../src/assets/Partnerslogo/image1.png",
-      "../src/assets/Partnerslogo/image2.jpg",
-      "../src/assets/Partnerslogo/image3.png",
-      "../src/assets/Partnerslogo/image4.png",
+      "Partnerslogo/image1.png",
+      "Partnerslogo/image2.jpg",
+      "Partnerslogo/image3.png",
+      "Partnerslogo/image4.png",
     ],
     [
-      "../src/assets/Partnerslogo/image5.PNG",
-      "../src/assets/Partnerslogo/image6.png",
-      "../src/assets/Partnerslogo/image7.png",
-      "../src/assets/Partnerslogo/image8.png"
+      "Partnerslogo/image5.PNG",
+      "Partnerslogo/image6.png",
+      "Partnerslogo/image7.png",
+      "Partnerslogo/image8.png"
     ],
     [
-      "../src/assets/Partnerslogo/image9.jpg",
-      "../src/assets/Partnerslogo/image10.jpg",
-      "../src/assets/Partnerslogo/image11.png",
-      "../src/assets/Partnerslogo/image12.jpg"
+      "Partnerslogo/image9.jpg",
+      "Partnerslogo/image10.jpg",
+      "Partnerslogo/image11.png",
+      "Partnerslogo/image12.jpg"
     ],
     [
-      "../src/assets/Partnerslogo/image13.png",
-      "../src/assets/Partnerslogo/image14.png",
-      "../src/assets/Partnerslogo/image15.png",
-      "../src/assets/Partnerslogo/image16.jpg"
+      "Partnerslogo/image13.png",
+      "Partnerslogo/image14.png",
+      "Partnerslogo/image15.png",
+      "Partnerslogo/image16.jpg"
     ],
     [
-      "../src/assets/Partnerslogo/image17.png",
-      "../src/assets/Partnerslogo/image18.png",
-      "../src/assets/Partnerslogo/image19.png",
-      "../src/assets/Partnerslogo/image20.jpg"
+      "Partnerslogo/image17.png",
+      "Partnerslogo/image18.png",
+      "Partnerslogo/image19.png",
+      "Partnerslogo/image20.jpg"
     ],
     [
-      "../src/assets/Partnerslogo/image21.png",
-      "../src/assets/Partnerslogo/image22.jpg",
-      "../src/assets/Partnerslogo/image23.png",
-      "../src/assets/Partnerslogo/image24.jpg"
+      "Partnerslogo/image21.png",
+      "Partnerslogo/image22.jpg",
+      "Partnerslogo/image23.png",
+      "Partnerslogo/image24.jpg"
     ],
     [
-      "../src/assets/Partnerslogo/image25.png",
-      "../src/assets/Partnerslogo/image26.png",
-      "../src/assets/Partnerslogo/image27.svg",
-      "../src/assets/Partnerslogo/image28.jpg"
+      "Partnerslogo/image25.png",
+      "Partnerslogo/image26.png",
+      "Partnerslogo/image27.svg",
+      "Partnerslogo/image28.jpg"
     ],
     [
-      "../src/assets/Partnerslogo/image29.png",
-      "../src/assets/Partnerslogo/image30.jpg",
-      "../src/assets/Partnerslogo/image31.png",
-      "../src/assets/Partnerslogo/image32.png"
+      "Partnerslogo/image29.png",
+      "Partnerslogo/image30.jpg",
+      "Partnerslogo/image31.png",
+      "Partnerslogo/image32.png"
     ]
   ]
 

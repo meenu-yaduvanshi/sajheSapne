@@ -7,7 +7,7 @@ function Nav() {
         <>
             <nav className="navbar">
                 <Hamburger/>
-                <Link to={'/homepage'}><img id='logo' src="../src/assets/logo.png" alt="logo" /></Link>
+                <Link to={'/homepage'}><img id='logo' src="logo.png" alt="logo" /></Link>
                 <Link to={'/donatenow'}><button id='donte-now-button'>Donate Now </button></Link>
             </nav>
 

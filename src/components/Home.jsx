@@ -9,9 +9,6 @@ const Home = () => {
 
     return (
         <>
-            {/* <div className='img-div'>
-                    <img src="../src/assets/homeCarousel/carousel-1.jpeg" alt="images" className='cr' width="340px" />
-                </div> */}
             <Carousel />
             <div className="containers">
                 <div className='poem-para'>
@@ -36,7 +33,7 @@ const Home = () => {
                 </div>
 
                 <div className='kkk-div'>
-                    <img src="../src/assets/kkkIllustration.png" alt="kkk-illustration" width="300" />
+                    <img src="homeImg/kkkIllustration.png" alt="kkk-illustration" width="300" />
                     {/* <h1 id='kkk' className='blue-head'>काबिल, कमाऊ, कामयाब -</h1> */}
                     <h1 id='campaign' className='pink-head'>Campaign of Change!</h1>
                     <p>
@@ -55,7 +52,7 @@ const Home = () => {
 
                 <div className='launching-div'>
                     <div className="mypic-div">
-                        <img src="src/assets/myPic.jpeg" alt="" />
+                        <img src="homeImg/myPic.jpeg" alt="teach-board-pic" />
                     </div>
                     <h1 id='launching' className='blue-head'>Launching Careers,<br /> Not Livelihoods - </h1>
                     <h1 id='livelihoods' className='pink-head'>Method of Change!</h1>
@@ -76,7 +73,7 @@ const Home = () => {
                 </div>
                 <div className='sw-figuringout-div'>
                     <div className="scooty-girl">
-                        <img src="src/assets/scooty.png" alt="" id='scooty-img'/>
+                        <img src="homeImg/scooty.png" alt="scooty-illus" id='scooty-img'/>
                     </div>
                     <h1 id='finguring-out' className='blue-head'>Sapnewaalis Figuring it Out -</h1>
                     <h1 id='stories' className='pink-head'> Stories of Change!</h1>

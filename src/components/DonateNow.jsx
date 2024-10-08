@@ -8,7 +8,7 @@ function DonateNow() {
         <>
             <Navbar />
             <div className="donate-icon">
-                <img src="src/assets/donatePage/donateIcon.png" alt="" width="80" />
+                <img src="donatePage/donateIcon.png" alt="" width="80" />
             </div>
             <div className="text-container">
                 {/* <div><h1 className="kkk-heading" id="kkk-h">काबिल, कमाऊ, कामयाब -</h1></div> */}

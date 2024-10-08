@@ -3,10 +3,10 @@ import "../styles/carousel.css"
 
 const CarouselComponent = () => {
     const images = [
-        '../src/assets/homeCarousel/carousel-1.jpeg',
-        '../src/assets/homeCarousel/carousel-2.jpg',
-        '../src/assets/homeCarousel/carousel-3.jpg',
-        '../src/assets/homeCarousel/carousel-4.jpeg'
+        'homeCarousel/carousel-1.jpeg',
+        'homeCarousel/carousel-2.jpg',
+        'homeCarousel/carousel-3.jpg',
+        'homeCarousel/carousel-4.jpeg'
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

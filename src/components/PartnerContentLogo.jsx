@@ -9,7 +9,7 @@ function PartnerContentLogo() {
         <>
             <div className="partner-contents-container">
                 <div>
-                    <img id="innovation-img" src="src/assets/innovation.png" alt="" />
+                    <img id="innovation-img" src="homeImg/innovation.png" alt="" />
                 </div>
                 <div className="heading-innovate"><h1 id="partner-h1">Innovate Work Culture with Rural Women -</h1>
                     <h1 id="partner-h2">Action for Change! </h1></div>
