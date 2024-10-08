@@ -5,14 +5,14 @@ const Footer = () => {
 
     return (
         <>
-        <div className='ft-illustratuin-div'>
-            <img src="cropfooter.png" alt="footer-illustration" id='footer-ills'/>
-        </div>
+            <div className='ft-illustratuin-div'>
+                <img src="cropfooter.png" alt="footer-illustration" id='footer-ills' />
+            </div>
             <footer>
                 <div className='newsletter'>
                     <h3>Join our Newsletter</h3>
                     <form>
-                        <input type="email" placeholder="Your email address" className="email-input"/>
+                        <input type="email" placeholder="Your email address" className="email-input" />
                         {/* <button type="submit" className="submit-btn">Subscribe</button> */}
                         <button className="submit-btn" type='submit'>Subscribe</button>
                     </form>
@@ -27,7 +27,20 @@ const Footer = () => {
                             <li>+91- 80910 93301</li>
                         </ul>
                     </div>
+
+                    <div className='ft-icon-div'>
+                        <a href=""> <img src="footerImg/youtube.png" alt="" id='youtube' className='ft-icon' />  </a>
+                        <a href=""> <img src="footerImg/instagram4.png" alt="" id='instagram' className='ft-icon' /> </a>
+                        <a href="">  <img src="footerImg/linkedin2.png" alt="" id='linkedin' className='ft-icon' /> </a>
+                    </div>
+
+                    {/* <div>
+                        <i class="fa fa-instagram"></i>
+                        <a href=""> <i class="fa fa-linkedin"></i></a>
+                        <a href=""> <i class="fa fa-youtube"></i></a>
+                    </div> */}
                 </div>
+
                 <hr className='hr' />
                 <div className='links'>
                     <p>LINKS</p>

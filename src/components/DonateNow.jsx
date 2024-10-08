@@ -3,25 +3,26 @@ import React from 'react';
 import Footer from './Footer';
 import Navbar from './Nav'
 
+
 function DonateNow() {
     return (
         <>
             <Navbar />
             <div className="donate-icon">
-                <img src="donatePage/donateIcon.png" alt="" width="80" />
+                <img src="donatePage/donateIcon.png" alt="" width="80" className="donateicon-img"/>
             </div>
             <div className="text-container">
                 {/* <div><h1 className="kkk-heading" id="kkk-h">काबिल, कमाऊ, कामयाब -</h1></div> */}
                 <div><h1 className="kkk-heading">Support young rural women to Learn, Earn & Excel</h1></div>
-                <div><p className="donate-to-start">Donate to start a Kaabil, Kamau Kamyab campaign in your state Change the fabric of career choices for young rural women. </p><br /></div>
+                <div><p className="donate-to-start">Donate to start a Kaabil, Kamau Kamyab campaign in your state. </p></div>
+                <div><p className="donate-to-start">Change the fabric of career choices for young rural women. </p> </div>
                 <p className="donate-to-starts">We’ve made big bold bets because our community bets on big, bold hopes.  </p>
                 <div><button className="join-community-button">Join our community of hope!</button> </div>
-            </div>
+            </div >
             <div>
                 <form action="" id="getinvolved-form">
                     <label htmlFor="myInput"></label>
                     <input list="options" id="myInput" name="myInput" placeholder="Select your citizenship" />
-
                     <datalist id="options">
                         <option value="Indian Citizen" />
                         <option value="Foreign Citizen/NRI" />
@@ -53,8 +54,9 @@ function DonateNow() {
                     </div>
 
                     <div className="input-div">
-                        <input type="date" id="dob-input" placeholder="DOB" required />
-                        <label id="dob" htmlFor="dob">DOB<span style={{ color: "red" }}>*</span></label>
+                        <input type="date" id="dob-input" placeholder="DOB"  required />
+                      <div className="dob-div"> <p id="dob-span">DOB</p></div> 
+                        <label id="dob" htmlFor="dob"><span style={{ color: "red" }}>*</span></label>
                     </div>
 
                     <div className="input-div">

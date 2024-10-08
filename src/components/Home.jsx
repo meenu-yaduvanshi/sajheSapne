@@ -27,7 +27,7 @@ const Home = () => {
                 <div>
                     <p>
                         Sajhe Sapne is a non-profit set on a mission to make rural women’s social and financial freedoms a norm by
-                        bringing them opportunities to Learn, Earn and Excel.
+                        bringing them opportunities to <br /> <span id='learn-earn-excel'> Learn, Earn and Excel.</span>
                     </p>
                     <button className="become-ally button">Become an Ally</button>
                 </div>
@@ -38,7 +38,7 @@ const Home = () => {
                     <h1 id='campaign' className='pink-head'>Campaign of Change!</h1>
                     <p>
                         In many villages, when young women continue their education after 12th, get a high paying job, or choose her
-                        own life partner, it becomes news. <br />
+                        own life partner, it becomes news. <br /> <br />
                         We are making rural women’s social & financial freedom a norm, not news.
                         <br /> <br />
                         Through our district centric <span>Kaabil Kamau Kamyaab </span>  campaigns, we’re sparking a cultural shift.

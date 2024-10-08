@@ -2,11 +2,31 @@
 /* https://fontawesome.com/search */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-/* 
-.ft-illustratuin-div {
-   
+/* .fa{
+    color: #EE3161;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: -10px;
 } */
+
+#youtube{
+    width: 33px;
+    height: 35px;
+    margin-bottom: -5px;
+}
+
+.ft-icon-div{
+    margin-top: -12px;
+    margin-bottom: 15px;
+}
+
+.ft-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+}
 
 #footer-ills{
     height: 100%;
@@ -28,6 +48,8 @@ footer {
     padding-right: 7%;
     padding-left: 7%;
 }
+
+
 
 /* Newsletter form */
 .newsletter {
@@ -169,15 +191,11 @@ a {
 .hr {
     border: 1px solid #646464;
     width: 100%;
-    /* padding-right: 10%; */
     margin-top: 13px;
-    /* margin-bottom: 25px; */
-    /* margin-bottom: -220px; */
+   
 }
 
-.copyrights {
-    padding-left: 6%;
-}
+
 
 .copyrights ul {
     padding: 0;
@@ -185,6 +203,9 @@ a {
 
 .copyrights {
     width: 99%;
+    padding-left: 6%;
+    margin-bottom: 3%;
+
 }
 
 .copyrights ul li {
