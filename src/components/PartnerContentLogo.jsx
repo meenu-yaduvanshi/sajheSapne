@@ -8,6 +8,9 @@ function PartnerContentLogo() {
     return (
         <>
             <div className="partner-contents-container">
+                <div>
+                    <img id="innovation-img" src="src/assets/innovation.png" alt="" />
+                </div>
                 <div className="heading-innovate"><h1 id="partner-h1">Innovate Work Culture with Rural Women -</h1>
                     <h1 id="partner-h2">Action for Change! </h1></div>
                 <div className="para-2"><p>Sajhe Sapne is championing employ - ment and employability for rural India.</p></div>

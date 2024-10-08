@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
-import PartnerContentLogo from './PartnerContentLogo.jsx'; 
+import PartnerContentLogo from './PartnerContentLogo.jsx';
 import Carousel from './Carousel.jsx';
 import { prefix } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,11 +9,11 @@ const Home = () => {
 
     return (
         <>
-                {/* <div className='img-div'>
+            {/* <div className='img-div'>
                     <img src="../src/assets/homeCarousel/carousel-1.jpeg" alt="images" className='cr' width="340px" />
                 </div> */}
-                <Carousel/>
-                <div className="containers">
+            <Carousel />
+            <div className="containers">
                 <div className='poem-para'>
                     <p>
                         One day, women of Indian villages<br />
@@ -54,7 +54,9 @@ const Home = () => {
                 </div>
 
                 <div className='launching-div'>
-                    <img src="src/assets/Methods-of-Change.jpeg" alt="" width="300" />
+                    <div className="mypic-div">
+                        <img src="src/assets/myPic.jpeg" alt="" />
+                    </div>
                     <h1 id='launching' className='blue-head'>Launching Careers,<br /> Not Livelihoods - </h1>
                     <h1 id='livelihoods' className='pink-head'>Method of Change!</h1>
                     <p>
@@ -73,6 +75,9 @@ const Home = () => {
                     <button className="know-sapna-center button">Know more about Sapna Centres</button>
                 </div>
                 <div className='sw-figuringout-div'>
+                    <div className="scooty-girl">
+                        <img src="src/assets/scooty.png" alt="" id='scooty-img'/>
+                    </div>
                     <h1 id='finguring-out' className='blue-head'>Sapnewaalis Figuring it Out -</h1>
                     <h1 id='stories' className='pink-head'> Stories of Change!</h1>
                     <p>
@@ -88,7 +93,7 @@ const Home = () => {
                     <button className="become-patron button">Become a patron for Sapnewaalis</button>
                 </div>
             </div>
-
+            
             <PartnerContentLogo />
         </>
     )

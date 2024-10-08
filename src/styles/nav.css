@@ -42,4 +42,5 @@ body {
     font-family: 'Poppins';
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+    padding: 7px 14px;
 }
