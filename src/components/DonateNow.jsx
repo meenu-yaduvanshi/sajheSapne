@@ -100,7 +100,7 @@ function DonateNow() {
                     </div>
 
                     <p id="small-info">
-                        Information is being collected to comply with government regulations and shall be treated as confidential. These details shall not be divulged for any other purpose. By sharing your details, you agree to receive stories and updates from Sajhe Sapne via mobile, Whatsapp, landline, email and post. <br /> If you’d like to change this, please send us an email on sapnewaalis@gmail.com.
+                        Information is being collected to comply with government regulations and shall be treated as confidential. These details shall not be divulged for any other purpose. <br />  By sharing your details, you agree to receive stories and updates from Sajhe Sapne via mobile, Whatsapp, landline, email and post. If you’d like to change this, please send us an email on sapnewaalis@gmail.com.
                     </p>
                     <div id="checkbox-tick">
                         <input id="check" type="checkbox" />

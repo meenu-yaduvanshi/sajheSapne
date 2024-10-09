@@ -60,7 +60,7 @@ const Hamburger = () => {
                                 id={`panel${index + 1}-header`}
                                 sx={{
                                     backgroundColor: '#2A3787',
-                                    color: expandedAccordion === item.title ? 'yellow' : 'white',
+                                    color: expandedAccordion === item.title ? '#FFD20E' : 'white',
                                     fontFamily: 'Poppins',
                                     paddingLeft: '13%',
                                     boxShadow: 'none',
@@ -87,7 +87,7 @@ const Hamburger = () => {
                                         </Link>
                                     ))
                                 ) : (
-                                    <p style={{ color: 'white !important' }}>{item.details}</p>
+                                    <p style={{ color: 'white !important', }}>{item.details}</p>
     )}
                             </AccordionDetails>
                         </Accordion>

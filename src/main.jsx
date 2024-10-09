@@ -13,7 +13,7 @@ import Deliver from './components/Deliver.jsx';
 
 const router = createBrowserRouter([
   {
-      path: "/",
+      path: "/homepage",
       element: <App />,
   },
   {
