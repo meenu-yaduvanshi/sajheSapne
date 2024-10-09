@@ -28,11 +28,11 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className='ft-icon-div'>
+                    {/* <div className='ft-icon-div'>
                         <a href=""> <img src="footerImg/youtube.png" alt="" id='youtube' className='ft-icon' />  </a>
                         <a href=""> <img src="footerImg/instagram4.png" alt="" id='instagram' className='ft-icon' /> </a>
                         <a href="">  <img src="footerImg/linkedin2.png" alt="" id='linkedin' className='ft-icon' /> </a>
-                    </div>
+                    </div> */}
 
                     {/* <div>
                         <i class="fa fa-instagram"></i>

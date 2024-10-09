@@ -31,7 +31,7 @@
   font-size: 1.8em;
 }
 
-#learn-earn-excel{
+#learn-earn-excel {
   color: #EE3161;
   font-weight: bold;
 }
@@ -92,26 +92,32 @@
 }
 
 
-.mypic-div{
-height: 240px;
-width: 110%;
-margin: 0 -7% 5% -5%;
-/* margin: auto; */
+.mypic-div {
+  height: 240px;
+  width: 115%;
+  margin: 0 -1% 5% -8%;
+  /* margin: auto; */
 }
 
 
-.mypic-div img{
+.mypic-div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-#scooty-img{
-  /* height: 350px; */
-  width: 100%;
-  height: 100%;
+.scooty-girl-div {
+  height: 240px;
+  width: 115%;
+  margin: 0 -7% 5% -7.5%;
+  /* background-color: #2A3787; */
 }
 
+#scooty-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 .button {
@@ -144,9 +150,7 @@ margin: 0 -7% 5% -5%;
   transform: translateY(2px);
 }
 
-.scooty-girl img{
-  max-height: 350px;
-}
+
 
 @media (hover: none) and (pointer: coarse) {
   .button {
@@ -159,6 +163,3 @@ margin: 0 -7% 5% -5%;
     color: #2A3787;
   }
 }
-
-
-

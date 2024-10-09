@@ -72,7 +72,7 @@ const Home = () => {
                     <button className="know-sapna-center button">Know more about Sapna Centres</button>
                 </div>
                 <div className='sw-figuringout-div'>
-                    <div className="scooty-girl">
+                    <div className="scooty-girl-div">
                         <img src="homeImg/scooty.png" alt="scooty-illus" id='scooty-img'/>
                     </div>
                     <h1 id='finguring-out' className='blue-head'>Sapnewaalis Figuring it Out -</h1>

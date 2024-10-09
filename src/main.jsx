@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 
 import DonateNow from './components/DonateNow.jsx';
+import Document from './components/Document.jsx';
+import Deliver from './components/Deliver.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,10 +19,15 @@ const router = createBrowserRouter([
   {
       path: "/donatenow",
       element: <DonateNow />, 
-  },{
-    path:"/homepage",
-    element: <App/>
-  }
+  },
+  {
+    path: "/deliver",
+    element: <Deliver />, 
+},
+{
+  path: "/document",
+  element: <Document />, 
+}
 
 
 ]);
