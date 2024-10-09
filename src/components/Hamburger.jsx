@@ -55,14 +55,14 @@ const Hamburger = () => {
                             }}
                         >
                             <AccordionSummary
-                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '17px' }} />}
+                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '47px' }} />}
                                 aria-controls={`panel${index + 1}-content`}
                                 id={`panel${index + 1}-header`}
                                 sx={{
                                     backgroundColor: '#2A3787',
                                     color: expandedAccordion === item.title ? 'yellow' : 'white',
                                     fontFamily: 'Poppins',
-                                    paddingLeft: '11%',
+                                    paddingLeft: '13%',
                                     boxShadow: 'none',
                                     borderBottom: 'none',
                                 }}
