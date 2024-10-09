@@ -104,7 +104,7 @@ function DonateNow() {
                     </p>
                     <div id="checkbox-tick">
                         <input id="check" type="checkbox" />
-                        <label id="check-label" htmlFor="check">I hereby declare that I am a citizen of India, making this donation out of my own funds. The information provided above is correct to the best of my knowledge. I know that all further communications will be done on contact details provided above.</label>
+                        <label id="check-label" htmlFor="check">I hereby declare that I am a citizen of India, making this donation out of my own funds. The information provided above is correct to the best of my knowledge. <br /> I know that all further communications will be done on contact details provided above.</label>
                     </div>
 
                     <button className="continue-to-payment">Continue to payment</button>
