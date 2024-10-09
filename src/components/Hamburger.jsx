@@ -55,7 +55,7 @@ const Hamburger = () => {
                             }}
                         >
                             <AccordionSummary
-                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '70px' }} />}
+                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '80px' }} />}
                                 aria-controls={`panel${index + 1}-content`}
                                 id={`panel${index + 1}-header`}
                                 sx={{
