@@ -53,12 +53,14 @@ function DonateNow() {
                         <label htmlFor="fullname"><span style={{ color: "red" }}>*</span></label>
                     </div>
 
-                    <div className="input-div">
-                        <input type="date" id="dob-input" placeholder="DOB"  required />
-                      <div className="dob-div"> <p id="dob-span">DOB</p></div> 
-                        <label id="dob" htmlFor="dob"><span style={{ color: "red" }}>*</span></label>
+                    <div className="input-div" id="dob-div">
+                        <p>DOB</p>
+                        <div id="inputs-div">
+                            <input type="date" id="dob-input" placeholder="DOB" required />
+                            <label id="dob" htmlFor="dob"><span style={{ color: "red" }}>*</span></label>
+                        </div>
                     </div>
-
+                    
                     <div className="input-div">
                         <input type="email" id="email" placeholder="Email" required />
                         <label htmlFor="email"><span style={{ color: "red" }}>*</span></label>

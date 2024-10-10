@@ -169,15 +169,19 @@ background-color: #FFD20E;
     flex-direction: row-reverse;
   }
 
-
-  #dob-span{
-    /* position: relative; */
-    color: rgb(118, 118, 118); /* Text color */
-    font-size: 0.6em; /* Font size */
-    font-family: 'Poppins'; /* Font set करें */
-    margin-right: 1930%;
-    
+  #dob-div{
+    display: flex;
+    flex-direction: column;
   }
+
+  #dob-div p{
+    margin: 0;
+    padding-left: 2%;
+    color: rgb(118, 118, 118) ;
+  }
+
+
+
 
   .continue-to-payment{
 
