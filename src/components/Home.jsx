@@ -33,7 +33,9 @@ const Home = () => {
                 </div>
 
                 <div className='kkk-div'>
-                    <img src="homeImg/kkkIllustration.png" alt="kkk-illustration" width="300" />
+                    <div className='kkkillus-div'>
+                        <img src="homeImg/kkkIllustration.png" alt="kkk-illustration" />
+                    </div>
                     {/* <h1 id='kkk' className='blue-head'>काबिल, कमाऊ, कामयाब -</h1> */}
                     <h1 id='campaign' className='pink-head'>Campaign of Change!</h1>
                     <p>
@@ -73,7 +75,7 @@ const Home = () => {
                 </div>
                 <div className='sw-figuringout-div'>
                     <div className="scooty-girl-div">
-                        <img src="homeImg/scooty.png" alt="scooty-illus" id='scooty-img'/>
+                        <img src="homeImg/scooty.png" alt="scooty-illus" id='scooty-img' />
                     </div>
                     <h1 id='finguring-out' className='blue-head'>Sapnewaalis Figuring it Out -</h1>
                     <h1 id='stories' className='pink-head'> Stories of Change!</h1>
@@ -90,7 +92,7 @@ const Home = () => {
                     <button className="become-patron button">Become a patron for Sapnewaalis</button>
                 </div>
             </div>
-            
+
             <PartnerContentLogo />
         </>
     )
