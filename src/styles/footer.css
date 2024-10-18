@@ -4,43 +4,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-/* .fa{
-    color: #EE3161;
-    font-size: 25px;
-    margin-right: 25px;
-    margin-top: -10px;
-} */
 
-#youtube{
-    width: 33px;
-    height: 35px;
-    margin-bottom: -5px;
-}
 
-.ft-icon-div{
+
+/* .ft-icon-div {
     margin-top: -12px;
     margin-bottom: 15px;
 }
 
-.ft-icon{
+.ft-icon {
     height: 25px;
     width: 25px;
     margin-right: 12px;
-}
+} */
 
-#footer-ills{
+#footer-ills {
     height: 100%;
     width: 100%;
-    /* padding: 10px 50px 0 30px; */
 }
+
+
 
 footer {
     font-family: "Poppins";
     margin-top: 0;
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
-    /* padding: 10%; */
     background-color: #EDEADF;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -54,16 +43,12 @@ footer {
 /* Newsletter form */
 .newsletter {
     padding-left: 5%;
-    /* margin-right: 10%; */
     margin: 0;
-    /* margin-left: 30px; */
-
 }
 
 .newsletter h3 {
     font-size: 22px;
     padding-top: 0;
-    /* margin-top: -1px; */
     margin-bottom: 6px;
     font-weight: 400;
 }
@@ -75,7 +60,6 @@ footer {
     margin-right: 19px;
     margin-bottom: 10px;
     font-family: "Poppins";
-
 }
 
 .submit-btn {
@@ -114,17 +98,14 @@ footer {
 @media (hover: none) and (pointer: coarse) {
     .submit-btn {
         background-color: #FFD20E;
-        /* मोबाइल पर कलर को सेट करें */
         color: #2A3787;
     }
 
     .submit-btn:active {
         background-color: white;
-        /* मोबाइल पर क्लिक करने पर कलर बदलें */
         color: #2A3787;
     }
 }
-
 
 
 .links {
@@ -152,7 +133,6 @@ footer {
 
 .links .story li {
     margin-top: 17px;
-    /* font-weight: 300; */
 }
 
 a {
@@ -169,9 +149,7 @@ a {
     line-height: 28px;
     text-align: start;
     list-style-type: none;
-    /* margin-top: -1px;  */
     font-size: 14px;
-    /* font-weight: 300; */
 }
 
 .contact-container div ul {
@@ -195,9 +173,7 @@ a {
     border: 1px solid #646464;
     width: 100%;
     margin-top: 13px;
-   
 }
-
 
 
 .copyrights ul {
@@ -207,8 +183,7 @@ a {
 .copyrights {
     width: 99%;
     padding-left: 6%;
-    /* margin-bottom: 3%; */
-margin-top: -7%;
+    margin-top: -20px;
 }
 
 .copyrights ul li {
@@ -222,66 +197,116 @@ margin-top: -7%;
     padding: 0;
 }
 
-/* .copyrights ul li:not(:first-child)::before {
-    content: "•";
-    margin-right: 3px;
-    color: black;
+
+
+@media (min-width: 1px) and (max-width: 1279px) {
+    #footer-big-ills {
+        display: none;
+    }
+    .hr-for-desktop{
+        display: none;
+    }
 }
 
-.no-bullet::before {
-    content: '';
-} */
 
 
+/* Desktop Layout */
+@media (min-width: 1150px) and (max-width: 3000px) {
+
+    #footer-ills {
+        display: none;
+    }
 
 
+    #footer-big-ills {
+        margin-top: 100px;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
 
-
-/* @media only screen and (max-width: 420px) {
     footer {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .newsletter h3 {
-        font-size: 30px;
+    .newsletter {
+        padding-left: 0;
+        margin-left: -40px;
+        /* background-color: bisque; */
+        width: 100%;
     }
+
 
     .email-input {
-        width: 100%;
-        margin-bottom: 10px;
+        font-family: "Poppins";
+        max-width: 550px;
+        height: 30px;
     }
-
-    .submit-btn {
-        width: 100%;
-        font-size: 1.1em;
-    }
-
-    .social-icons i {
-        font-size: 20px;
-        margin: 5px;
-    }
-} */
-
-
-/* @media only screen and (max-width: 480px) {
 
     .newsletter h3 {
-        font-size: 25px;
+        font-size: 2.8em;
+        padding: 0;
+        margin-bottom: 6px;
+        font-weight: 400;
+        margin-top: 22px;
     }
 
-    .email-input,
+
     .submit-btn {
-        width: 100%;
-        margin-bottom: 10px;
+        font-size: 1.3em;
+
     }
 
-    .submit-btn {
-        font-size: 1em;
+    .hr {
+        display: none;
     }
 
-    .social-icons i {
-        font-size: 18px;
-        margin: 5px;
+    .hr-for-desktop{
+        display: block;
+        /* border: 1px solid #646464; */
+        height: 0.8px; 
+        background-color: #646464; 
+        border: none; 
+        width: 140%;
+        margin-top: 13px;
+        margin-left: -90px;
+        margin-right: -90px;
     }
-} */
+
+    .links {
+        max-width: 300px;
+        margin-left: 0;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .contact-container {
+        padding-left: 0;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+
+    .copyrights ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .copyrights ul li:not(:first-child)::before {
+        content: "•";
+        margin-right: 3px;
+        padding-left: 7px;
+        color: black;
+    }
+
+    .no-bullet::before {
+        content: '';
+    }
+
+}

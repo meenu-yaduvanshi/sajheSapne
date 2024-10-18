@@ -18,11 +18,14 @@
     padding-right: 11%;
     gap: 15px;
     /* grid-template-rows: 200px; */
+    /* background-color: #EE3161; */
   }
   
   .media-contents-container {
     margin-top: 12%;
     padding-bottom: 8%;
+    /* background-color: aquamarine; */
+    margin-bottom: 130px;
   }
   
   .partner-contents-container div {
