@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/mediaSlideshow.css';
+import '../styles/carouselmedia.css';
 
 const CarouselMedia = () => {
-   const [click, setClick] = useState(0);
+  const [click, setClick] = useState(0);
 
   const imgArray = [
     [
@@ -22,14 +22,15 @@ const CarouselMedia = () => {
       "mediaRecoImg/img10.png",
       "mediaRecoImg/img11.png",
       "mediaRecoImg/img12.png",
+      "mediaRecoImg/img13.png"
     ],
   ]
 
   useEffect(() => {
-      const interval = setInterval(() => {
-          setClick((prevClick) => (prevClick + 1) % imgArray.length);
-      }, 3000); 
-      return () => clearInterval(interval);
+    const interval = setInterval(() => {
+      setClick((prevClick) => (prevClick + 1) % imgArray.length);
+    }, 3000);
+    return () => clearInterval(interval);
   }, [imgArray.length]);
 
   return (

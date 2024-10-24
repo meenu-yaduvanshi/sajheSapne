@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/home.css';
-import PartnerContentLogo from './PartnerContentLogo.jsx';
 import Carousel from './Carousel.jsx';
+import PartnerContentLogo from './PartnerContentLogo.jsx';
+
 import { prefix } from '@fortawesome/free-solid-svg-icons';
 
 

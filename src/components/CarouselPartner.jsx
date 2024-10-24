@@ -68,7 +68,7 @@ const ImageCarousel = () => {
 
   return (
     <>
-      <div className='container'>
+      <div className='partner-container'>
         {/* <button onClick={handlePrevClick}>&#60;</button> */}
         {imgArray[click].map((imgSrc, index) => (
           <div key={index} className="image-wrapper">

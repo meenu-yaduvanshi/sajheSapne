@@ -1,6 +1,7 @@
 import "../styles/partnerContentLogo.css"
 import CarouselPartner from "./CarouselPartner"
 import CarouselMedia from "./CarouselMedia"
+import MediaCarouselDesktop from './MediaCarouselDesktop.jsx';
 
 function PartnerContentLogo() {
 
@@ -23,6 +24,7 @@ function PartnerContentLogo() {
                     <h1 id="media-reco">Media Recognition</h1>
                     <div className="media-carousel-container">
                         <CarouselMedia />
+                        <MediaCarouselDesktop />
                     </div>
                 </div>
             </div>
