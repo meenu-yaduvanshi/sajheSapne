@@ -127,10 +127,12 @@ footer {
 }
 
 .links p {
-    font-size: 1.2em;
+    font-size: 0.9em;
+    font-weight: 600;
+
 }
 
-.links p,
+
 .contact-container div p {
     font-weight: 600;
 }
@@ -292,6 +294,9 @@ a {
         line-height: 25px;
     }
 
+    .links p{
+        font-size: 1.1em;
+    }
 
     .contact-container {
         padding-left: 0;
@@ -300,7 +305,7 @@ a {
     }
 
     .contact-container div p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
 

@@ -23,15 +23,15 @@ function Nav() {
                     </div>
                 </div>
                 <section className='nav-links-div'>
-                    <img src="logo.png" id='logo-desktop' alt="" />
+                <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
                     <ul>
                         <a href="#"><li>Power of Learning <p>काबिल</p></li></a>
-                        <li>+</li>
+                        <li className='plus'>+</li>
                         <a href="#"><li>Power of Earning<p>कमाऊ</p></li></a>
-                        <li>+</li>
+                        <li className='plus'>+</li>
                         <a href="#"><li>Power of Collective<p>कामयाब</p></li></a>
-                        <li>=</li>
-                        <a href="#"><li>Freedom</li></a>
+                        <li className='plus'>=</li>
+                        <a className='freedom' href="#"><li>Freedom</li></a>
 
                     </ul>
                     <button id='nav-get-involved-btn'>Get involved</button>

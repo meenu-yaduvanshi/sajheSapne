@@ -11,22 +11,20 @@
     background-color: #EE3161;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     font-family: 'Poppins';
+    height: 30px;
 }
 
 .nav-contact-div ul {
     display: flex;
-    margin-left: 330px;
-    /* width: 50%; */
-    /* background-color: blueviolet; */
+    margin-left: -280px;
 }
 
 .ft-icon-div ul {
     display: flex;
-    margin-left: 60px;
+    margin-left: 190px;
     list-style: disc;
-    /* Ensure bullet points are shown */
 }
 
 .ft-contacttext-div ul li {
@@ -35,19 +33,42 @@
     padding-left: 18px;
 }
 
+
 .ft-icon-div ul li {
     margin-right: 50px;
     color: white;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
 
 }
 
 
 .nav-contact-div p {
-    /* color: whitesmoke; */
     color: white;
 }
+
+
+.ft-icon-div ul {
+    list-style: none;
+}
+
+.ft-icon-div ul li {
+    position: relative;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.ft-icon-div ul li::before {
+    content: '•';
+    position: absolute;
+    left: -20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
 
 
 /* Grey navbar */
@@ -57,7 +78,6 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    /* justify-content: center; */
 }
 
 .nav-links-div ul {
@@ -82,9 +102,17 @@
 .nav-links-div ul li {
     margin-right: 40px;
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 400;
 }
+
+.nav-links-div ul li p {
+    /* margin-right: 40px;
+    list-style: none; */
+    font-size: 1em;
+    font-weight: 500;
+}
+
 
 .nav-links-div ul li a {
     text-decoration: none;
@@ -108,12 +136,25 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     padding: 7px 14px;
-    margin-top: 15px;
+    margin-top: 25px;
     cursor: pointer;
 }
 
+#nav-get-involved-btn:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
 
+.plus {
+    font-size: 40px !important;
+    margin-top: 5px;
+}
 
+.freedom{
+    margin-top: 17px;
+}
 
 
 /* Desktop Layout */
@@ -131,7 +172,7 @@
         display: none;
     }
 
-        .nav-contact-div {
+    .nav-contact-div {
         display: none;
     }
 
@@ -174,5 +215,5 @@
         padding: 7px 14px;
     }
 
-   
+
 }
