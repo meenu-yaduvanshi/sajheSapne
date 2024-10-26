@@ -212,6 +212,9 @@ a {
     .hr-for-desktop {
         display: none;
     }
+    .links ul li a:hover{
+        color: #EE3161;
+    }
 }
 
 
@@ -223,6 +226,9 @@ a {
         display: none;
     }
 
+    .links ul li a:hover{
+        color: #EE3161;
+    }
 
     #footer-big-ills {
         margin-top: 100px;
