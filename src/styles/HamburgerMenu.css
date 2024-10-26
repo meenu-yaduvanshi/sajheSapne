@@ -40,14 +40,14 @@
 
 
 
-.contact-menu ul {
+/* .contact-menu ul {
     list-style: none;
     padding-left: 9%;
     margin: 0;
-}
+} */
 
 .contact-menu li {
-    padding: 10px 20px;
+    padding: 10px 9%;
     cursor: pointer;
     font-family: 'Poppins';
     font-size: 13px;
@@ -60,4 +60,17 @@
     font-size: 1em;
     font-family: "Poppins";
     margin-bottom: 5%;
+}
+
+.menu-list{
+    color: white;
+    padding-left: 13%;
+    font-family: 'Poppins';
+    /* font-weight: 400; */
+    font-size: 0.99em;
+    margin-top: 2.8%;
+}
+
+#crowdFunding{
+    margin-top: 5.5%;
 }

@@ -25,11 +25,6 @@ const Hamburger = () => {
     };
 
     const accordionItems = [
-        { title: 'Crowdfunding', details: 'About crowd funding' },
-        { title: 'Power of Learning', details: 'About Learning page' },
-        { title: 'Power of Earning', details: 'About earning page' },
-        { title: 'Power of Collective', details: 'About collective page' },
-        { title: 'Agency Building', details: 'About agency building' },
         { title: 'Get Involved', details: ['Document', 'DonateNow', 'Deliver'], isLink: true },
     ];
 
@@ -40,6 +35,12 @@ const Hamburger = () => {
             </button>
             {isOpen && (
                 <div className="menu">
+                    <Link to={'/'}><p className='menu-list' id='crowdFunding'>CrowdFunding</p></Link>
+                    <Link to={'/powerOfLearning'}><p className='menu-list' id='p-0f-l'>Power Of Learning</p></Link>
+                    <Link to={'/powerOfEarning'}><p className='menu-list' id='p-0f-e'>Power Of Earning</p></Link>
+                    <Link to={'/powerOfCollective'}><p className='menu-list' id='p-0f-c'>Power Of Collective</p></Link>
+                    <Link to={'/freedom'}><p className='menu-list' id='freedom'>Freedom</p></Link>
+
                     {accordionItems.map((item, index) => (
                         <Accordion
                             key={index}
@@ -55,7 +56,7 @@ const Hamburger = () => {
                             }}
                         >
                             <AccordionSummary
-                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '80px' }} />}
+                                expandIcon={<ExpandMoreIcon sx={{ color: 'white', paddingRight: '95px' }} />}
                                 aria-controls={`panel${index + 1}-content`}
                                 id={`panel${index + 1}-header`}
                                 sx={{
@@ -88,7 +89,7 @@ const Hamburger = () => {
                                     ))
                                 ) : (
                                     <p style={{ color: 'white !important', }}>{item.details}</p>
-    )}
+                                )}
                             </AccordionDetails>
                         </Accordion>
                     ))}

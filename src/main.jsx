@@ -10,6 +10,10 @@ import {
 import DonateNow from './components/DonateNow.jsx';
 import Document from './components/Document.jsx';
 import Deliver from './components/Deliver.jsx';
+import PowerOfLearning from './components/PowerOfLearning.jsx';
+import PowerOfEarning from './components/PowerOfEarning.jsx';
+import PowerOfCollective from './components/PowerOfCollective.jsx';
+import Freedom from './components/Freedom.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +36,22 @@ const router = createBrowserRouter([
   path: "/homepage",
   element: <App />,
 },
+{
+  path:"/powerOfLearning",
+  element: <PowerOfLearning />
+},
+{
+  path:"/powerOfEarning",
+  element: <PowerOfEarning />
+},
+{
+  path:"/powerOfCollective",
+  element: <PowerOfCollective />
+},
+{
+  path:"/freedom",
+  element: <Freedom />
+}
 
 ]);
 

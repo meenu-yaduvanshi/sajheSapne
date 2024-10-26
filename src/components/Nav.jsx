@@ -22,18 +22,32 @@ function Nav() {
                         </ul>
                     </div>
                 </div>
-                <section className='nav-links-div'>
-                <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
-                    <ul>
-                        <a href="#"><li>Power of Learning <p>काबिल</p></li></a>
-                        <li className='plus'>+</li>
-                        <a href="#"><li>Power of Earning<p>कमाऊ</p></li></a>
-                        <li className='plus'>+</li>
-                        <a href="#"><li>Power of Collective<p>कामयाब</p></li></a>
-                        <li className='plus'>=</li>
-                        <a className='freedom' href="#"><li>Freedom</li></a>
 
+
+                <section className='nav-links-div'>
+                    <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
+
+                    <ul>
+                        <Link to={'/powerOfLearning'}>
+                            <li>Power of Learning <p>काबिल</p></li>
+                        </Link>
+                        <li className='plus'>+</li>
+
+                        <Link to={'/powerOfEarning'}>
+                            <li>Power of Earning <p>कमाऊ</p></li>
+                        </Link>
+                        <li className='plus'>+</li>
+
+                        <Link to={'/powerOfCollective'}>
+                            <li>Power of Collective <p>कामयाब</p></li>
+                        </Link>
+                        <li className='plus'>=</li>
+
+                        <Link to={'/freedom'}>
+                            <li className='freedom'>Freedom</li>
+                        </Link>
                     </ul>
+
                     <button id='nav-get-involved-btn'>Get involved</button>
                 </section>
 

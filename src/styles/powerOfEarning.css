@@ -1,0 +1,99 @@
+.banner-2{
+    color: #EE3161;
+    font-size: 1.4em;
+    margin: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.pledge-support{
+    margin-top: 3%;
+    font-weight: 400;
+    width: 40%;
+    font-family: 'Poppins';
+    background-color: #FFD20E;
+    color: #2A3787;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.pledge-support:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.pledge-support:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+.become-a-partner{
+    margin-top: 3%;
+    font-weight: 400;
+    width: 50%;
+    font-family: 'Poppins';
+    background-color: #FFD20E;
+    color: #2A3787;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.become-a-partner:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.become-a-partner:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+#hire-sapnewaali-bu{
+    margin-top: 3%;
+    font-weight: 400;
+    width: 50%;
+    font-family: 'Poppins';
+    background-color: #FFD20E;
+    color: #2A3787;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#hire-sapnewaali-bu:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+#hire-sapnewaali-bu:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+#progressive-and-proud{
+    font-size: 1.03em;
+}
+
+#helping-govn{
+    font-size: 1.3em;
+}
