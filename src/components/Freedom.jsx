@@ -7,7 +7,7 @@ const Freedom = () => {
     return (
         <>
         <Nav/>
-            {/* <p>Freedom</p> */}
+            <p>Freedom</p>
             <Footer/>
         </>
     )

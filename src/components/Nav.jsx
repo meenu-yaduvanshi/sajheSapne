@@ -31,24 +31,28 @@ function Nav() {
                         <Link to={'/powerOfLearning'}>
                             <li>Power of Learning <p>काबिल</p></li>
                         </Link>
-                        <li className='plus'>+</li>
+                        <li className='plus' id='symbol'>+</li>
 
                         <Link to={'/powerOfEarning'}>
                             <li>Power of Earning <p>कमाऊ</p></li>
                         </Link>
-                        <li className='plus'>+</li>
+                        <li className='plus' id='symbol' >+</li>
 
                         <Link to={'/powerOfCollective'}>
                             <li>Power of Collective <p>कामयाब</p></li>
                         </Link>
-                        <li className='plus'>=</li>
+                        <li className='plus' id='symbol' >=</li>
 
                         <Link to={'/freedom'}>
-                            <li className='freedom'>Freedom</li>
+                            <li className='freedom'>Freedom <p>तरक्की और आज़ादी</p> </li>
+                        </Link>
+                        <Link to={'/getinvolved'}>
+                            <li id='get-involved'>Get involved</li>
                         </Link>
                     </ul>
 
-                    <button id='nav-get-involved-btn'>Get involved</button>
+
+                    {/* <button id='nav-get-involved-btn'>Get involved</button> */}
                 </section>
 
 

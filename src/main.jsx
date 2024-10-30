@@ -14,6 +14,8 @@ import PowerOfLearning from './components/PowerOfLearning.jsx';
 import PowerOfEarning from './components/PowerOfEarning.jsx';
 import PowerOfCollective from './components/PowerOfCollective.jsx';
 import Freedom from './components/Freedom.jsx';
+import GetInvolved from './components/GetInvolved.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -51,8 +53,11 @@ const router = createBrowserRouter([
 {
   path:"/freedom",
   element: <Freedom />
-}
-
+},
+{
+  path:"/getinvolved",
+  element: <GetInvolved />
+},
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

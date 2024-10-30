@@ -1,15 +1,16 @@
 import Nav from "./Nav"
 import Footer from './Footer';
+import { Link } from 'react-router-dom'
 
 
-const PowerOfCollective = () => {
+const GetInvolved = () => {
 
     return (
         <>
             <Nav />
-            <p>Collective</p>
+            <p>Get Involved</p>
             <Footer />
         </>
     )
 }
-export default PowerOfCollective
+export default GetInvolved

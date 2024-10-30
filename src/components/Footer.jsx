@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/footer.css'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
 
@@ -46,10 +48,27 @@ const Footer = () => {
                 <div className='links'>
                     <p>LINKS</p>
                     <ul>
-                        <li><a href="#">Power of Learning</a></li>
+ 
+                    <Link to={'/powerOfLearning'}>
+                    <li>Power of Learning</li>
+                    </Link> 
+
+                    <Link to={'/powerOfEarning'}>
+                    <li>Power of Earning</li>
+                    </Link>  
+
+                    <Link to={'/powerOfCollective'}>
+                    <li>Power of Collective</li>
+                    </Link> 
+
+                    <Link to={'/freedom'}>
+                    <li>Idea of Freedom</li>
+                    </Link> 
+
+                        {/* <li><a href="#">Power of Learning</a></li>
                         <li><a href="#">Power of Earning</a></li>
                         <li><a href="#">Power of Collective</a></li>
-                        <li><a href="#">Idea of Freedom</a></li>
+                        <li><a href="#">Idea of Freedom</a></li> */}
                     </ul>
                 </div>
                 <hr className='hr' />

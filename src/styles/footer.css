@@ -121,8 +121,10 @@ footer {
     color: black;
     font-size: 14px;
     line-height: 22px;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
+
+
 
 .links p {
     font-size: 0.9em;
@@ -212,9 +214,15 @@ a {
     .hr-for-desktop {
         display: none;
     }
+    .links ul li:hover{
+        color: #EE3161;
+        font-weight: 500;
+    }
+
     .links ul li a:hover{
         color: #EE3161;
-    }
+        font-weight: 500;
+    }  
 }
 
 
@@ -226,8 +234,16 @@ a {
         display: none;
     }
 
+    .links ul li:hover{
+        color: #EE3161;
+        font-weight: 500;
+
+    }
+
     .links ul li a:hover{
         color: #EE3161;
+        font-weight: 500;
+
     }
 
     #footer-big-ills {
