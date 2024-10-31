@@ -23,13 +23,13 @@ function Nav() {
                     </div>
                 </div>
 
-
+{/* <p id="hindi-text">काबिल</p> */}
                 <section className='nav-links-div'>
                     <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
 
                     <ul>
                         <Link to={'/powerOfLearning'}>
-                            <li>Power of Learning <p id="hindi-text">काबिल</p> <p>काबिल</p> </li>
+                            <li>Power of Learning  <p>काबिल</p> </li>
                         </Link>
                         <li className='plus' id='symbol'>+</li>
 
