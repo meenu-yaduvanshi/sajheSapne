@@ -29,7 +29,7 @@ function Nav() {
 
                     <ul>
                         <Link to={'/powerOfLearning'}>
-                            <li>Power of Learning <p>काबिल</p></li>
+                            <li>Power of Learning <p id="hindi-text">काबिल</p> <p>काबिल</p> </li>
                         </Link>
                         <li className='plus' id='symbol'>+</li>
 
