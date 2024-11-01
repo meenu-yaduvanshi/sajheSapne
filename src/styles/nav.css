@@ -9,6 +9,10 @@
     /* margin-left: -20px; */
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 #hindi-text {
     font-family: 'Roboto', 'Noto Sans Devanagari', sans-serif !important;

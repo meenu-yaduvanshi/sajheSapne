@@ -11,11 +11,42 @@
 
 .containers div p {
   color: #323437;
-  font-size: 0.9em;
+  font-size: 0.83em;
+  margin-top: 3%;
+}
+#they-become-con-pro{
+  font-weight: 600;
+  color: #2A3787;
+}
+
+#we-go-beyond{
+  font-weight: 600;
+  color: #2A3787;
+}
+
+#steady-earning-opp{
+  font-weight: 600;
+  color: #2A3787;
+}
+
+#new-trends-family{
+  font-weight: 600;
+  color: #2A3787;
+}
+#dalit{
+  margin-top: 5%;
+}
+
+#tribe-p{
+  margin-bottom: 3%;
 }
 
 .poem-para p span {
   font-style: italic;
+}
+
+.poem-para{
+  margin-bottom: 10%;
 }
 
 .headings {
@@ -24,15 +55,16 @@
 }
 
 #sajhe-sapne {
+  margin-top: 10%;
   color: #EE3161;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   padding: 0;
   font-family: "Poppins";
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 #learn-earn-excel {
-  color: #EE3161;
+  color: #2A3787;
   font-weight: bold;
 }
 
@@ -50,15 +82,15 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins";
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 5%;
 
 }
 
 #launching {
-  color: #2A3787;
+  color: #EE3161;
   font-size: 1.4em;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: Poppins;
   margin: 0;
 }
@@ -86,7 +118,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins";
-  font-size: 1.6em;
+  font-size: 1.3em;
   margin-bottom: 5%;
 
 }
@@ -94,7 +126,7 @@
 .kkkillus-div {
   height: auto;
   width: 115%;
-  margin: 0 -7% 5% -7.5%;
+  margin: 0 -7% 0% -7.5%;
 }
 
 
@@ -107,7 +139,7 @@
 .mypic-div {
   height: auto;
   width: 115%;
-  margin: 0 -7% 5% -7.5%;
+  margin: 0 -7% 0% -7.5%;
 }
 
 .mypic-div img {
@@ -120,7 +152,7 @@
 .scooty-girl-div {
   height: auto;
   width: 115%;
-  margin: 0 -7% 5% -7.5%;
+  margin: 0 -7% 0% -7.5%;
 }
 
 #scooty-img {

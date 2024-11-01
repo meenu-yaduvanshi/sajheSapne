@@ -19,51 +19,56 @@ import GetInvolved from './components/GetInvolved.jsx';
 
 const router = createBrowserRouter([
   {
-      path: "/",
-      element: <App />,
+    path: "/",
+    element: <App />,
   },
   {
-      path: "/donatenow",
-      element: <DonateNow />, 
+    path: "/donatenow",
+    element: <DonateNow />,
   },
   {
     path: "/deliver",
-    element: <Deliver />, 
-},
-{
-  path: "/document",
-  element: <Document />, 
-},
-{
-  path: "/homepage",
-  element: <App />,
-},
-{
-  path:"/powerOfLearning",
-  element: <PowerOfLearning />
-},
-{
-  path:"/powerOfEarning",
-  element: <PowerOfEarning />
-},
-{
-  path:"/powerOfCollective",
-  element: <PowerOfCollective />
-},
-{
-  path:"/freedom",
-  element: <Freedom />
-},
-{
-  path:"/getinvolved",
-  element: <GetInvolved />
-},
+    element: <Deliver />,
+  },
+  {
+    path: "/document",
+    element: <Document />,
+  },
+  {
+    path: "/homepage",
+    element: <App />,
+  },
+  {
+    path: "/powerOfLearning",
+    element: <PowerOfLearning />
+  },
+  {
+    path: "/powerOfEarning",
+    element: <PowerOfEarning />
+  },
+  {
+    path: "/powerOfCollective",
+    element: <PowerOfCollective />
+  },
+  {
+    path: "/freedom",
+    element: <Freedom />
+  },
+  {
+    path: "/getinvolved",
+    element: <GetInvolved />
+  },
+  {
+    path: "/donateButton",
+  element: <DonateNow />,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router}>
-          <App />
-      </RouterProvider>
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 )

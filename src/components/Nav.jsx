@@ -23,7 +23,7 @@ function Nav() {
                     </div>
                 </div>
 
-{/* <p id="hindi-text">काबिल</p> */}
+                {/* <p id="hindi-text">काबिल</p> */}
                 <section className='nav-links-div'>
                     <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
 

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/carousel.css"
+import  DonateNow from './DonateButton.jsx'; // Import the CSS file
+
 
 const CarouselComponent = () => {
     const images = [
@@ -19,6 +21,10 @@ const CarouselComponent = () => {
     }, [images.length]);
 
     return (
+
+        <>
+        <DonateNow/>
+        
         <div className="img-carousel-container">
             <div className="carousel-slide-div">
                 {images.map((image, index) => (
@@ -41,6 +47,8 @@ const CarouselComponent = () => {
                 ))}
             </div>
         </div>
+        </>
+
     );
 };
 

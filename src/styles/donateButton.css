@@ -1,0 +1,34 @@
+
+.donate-button{
+/* margin-right: -40px; */
+text-align: left;
+    color: #2A3787;
+    font-weight: 400;
+    /* width: 69%; */
+    font-family: 'Poppins';
+    /* margin-top: 9%; */
+    background-color: #FFD20E;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+    transition: all 0.3s ease;
+    /* margin-bottom: 10%; */
+  }
+  
+  .donate-button:hover {
+    background-color: white;
+    color: #2A3787;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  .donate-button:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* Smaller shadow on click */
+    transform: translateY(2px);
+    /* Slightly lowers the button on click */
+  }
