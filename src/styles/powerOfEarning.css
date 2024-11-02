@@ -1,15 +1,41 @@
-.banner-2{
+banner-2{
     color: #EE3161;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 0;
     padding-left: 4%;
     padding-right: 4%;
+    font-family: 'Poppins';
 }
+
+.h2-partner-progress{
+    color: #EE3161;
+    font-size: 1.1em;
+    margin: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Poppins';
+}
+
+#opportunities-for-buss-ul li{
+    font-size: 0.8em;
+    text-align: left;
+    font-family: 'Poppins';
+}
+
+#Opportunities-for-Rural-Women-ul li{
+    font-size: 0.8em;
+    text-align: left;
+    font-family: 'Poppins';
+}
+
+/* #opportunities-for-buss-p{
+    margin-top: 5%;
+} */
 
 .pledge-support{
     margin-top: 3%;
     font-weight: 400;
-    width: 40%;
+    width: 85%;
     font-family: 'Poppins';
     background-color: #FFD20E;
     color: #2A3787;
@@ -92,8 +118,15 @@
 
 #progressive-and-proud{
     font-size: 1.03em;
+    font-family: 'Poppins';
 }
 
 #helping-govn{
     font-size: 1.3em;
+    font-family: 'Poppins';
+}
+
+.parass{
+    font-size: 0.8em;
+    font-family: 'Poppins';
 }

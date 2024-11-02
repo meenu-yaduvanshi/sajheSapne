@@ -2,26 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap&subset=devanagari');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
 
-#logo-desktop {
-    margin-top: 22px;
-    height: 60px;
-    cursor: pointer;
-    /* margin-left: -20px; */
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#hindi-text {
-    font-family: 'Roboto', 'Noto Sans Devanagari', sans-serif !important;
-    /* font-weight: 900;  */
-  }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 200px; */
+}
 
 
-/* pink navbar */
-.nav-contact-div {
+/* Pink navbar */
+.pinknav-div {
     background-color: #EE3161;
     display: flex;
     align-items: center;
@@ -30,50 +30,38 @@
     height: 30px;
 }
 
-.nav-contact-div ul {
-    display: flex;
-    margin-left: -280px;
-}
-
-.ft-icon-div ul {
-    display: flex;
-    margin-left: 190px;
-    list-style: disc;
-}
-
-.ft-contacttext-div ul li {
+.contact-text-div ul li {
     margin-right: 40px;
     color: white;
     padding-left: 18px;
 }
 
 
-.ft-icon-div ul li {
-    margin-right: 50px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 7px;
-
+.pinknav-div ul {
+    display: flex;
+    margin-left: -280px;
 }
 
-
-.nav-contact-div p {
-    color: white;
+.social-icon-div ul {
+    display: flex;
+    margin-left: 190px;
+    list-style: disc;
 }
 
-
-.ft-icon-div ul {
+.social-icon-div ul {
     list-style: none;
 }
 
-.ft-icon-div ul li {
+.social-icon-div ul li {
     position: relative;
     margin: 0 15px;
     text-align: center;
+    color: white;
+    padding: 7px 20px;
+
 }
 
-.ft-icon-div ul li::before {
+.social-icon-div ul li::before {
     content: '•';
     position: absolute;
     left: -20px;
@@ -82,97 +70,89 @@
 }
 
 
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    /* object-fit: contain; */
+}
 
 
 
 /* Grey navbar */
-.nav-links-div {
+.greynav-div {
     font-family: 'Poppins';
     background-color: whitesmoke;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.nav-links-div ul {
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
 }
 
 .no-bullet-in-nav {
     list-style: none;
-    margin-right: 30px;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-.nav-icon {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
+.greynav-div ul {
+    display: flex;
+    padding: 0;
+    text-align: center;
 }
 
-.nav-links-div ul li {
+.greynav-div ul li {
     margin-right: 40px;
     list-style: none;
     font-size: 1.3em;
     font-weight: 400;
-    margin-left: 17px;
 }
 
-.nav-links-div ul li p {
+#symbol{
+    margin-top: 5px;
+    font-size: 2.1em;
+}
+
+#get-involved{
+    margin-top: 15px;
+}
+
+.greynav-div ul li p {
     font-size: 1em;
     font-weight: 500;
 }
 
-.nav-links-div ul li:hover {
+.greynav-div ul li:hover {
     color: #EE3161;
     font-weight: 500;
 }
 
-
-#get-involved {
-    margin-top: 16px;
-    cursor: pointer;
-    /* margin-right: -40px; */
+#donte-now-button {
+    background-color: #FFD20E;
+    border: none;
+    color: #2A3787;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Poppins';
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    padding: 7px 14px;
 }
 
-.plus {
-    font-size: 35px !important;
-    margin-top: 5px;
+body {
+    margin-top: 70px;
 }
 
-#symbol:hover{
-color: black;
-font-weight: 400;
-}
-
-
-/* Desktop Layout */
-@media (min-width: 1451px) and (max-width: 4000px) {
-
-    .hamburger-div {
-        display: none;
-    }
-
-}
-
+/* Media Queries */
 @media (max-width: 1450px) {
-
-    .nav-links-div {
+    .greynav-div {
         display: none;
     }
 
-    .nav-contact-div {
+    .pinknav-div {
         display: none;
     }
-
 
     .hamburger-div {
         height: 100px;
@@ -181,16 +161,9 @@ font-weight: 400;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-
         top: 0;
         width: 100%;
         z-index: 1000;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        /* padding-top: ; */
     }
 
     #logo {
@@ -198,19 +171,34 @@ font-weight: 400;
         cursor: pointer;
     }
 
-    #donte-now-button {
-        background-color: #FFD20E;
-        border: none;
-        color: #2A3787;
-        height: 35px;
-        width: 100%;
-        border-radius: 5px;
-        font-size: 13px;
-        font-family: 'Poppins';
-        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-        padding: 7px 14px;
+    #logo-desktop {
+        display: none;
     }
 
+    .hamburger {
+        display: block;
+    }
+}
 
+@media (min-width: 1451px) and (max-width: 2000px) {
+    #logo-desktop {
+        height: 70px;
+        /* margin-left: -130px; */
+    }
+
+    .hamburger-div {
+        display: none;
+    }
+}
+
+
+@media (min-width: 2001px) and (max-width: 4000px) {
+    #logo-desktop {
+        height: 70px;
+        margin-left: 270px;
+    }
+
+    .hamburger-div {
+        display: none;
+    }
 }

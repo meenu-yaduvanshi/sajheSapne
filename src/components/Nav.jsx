@@ -7,55 +7,58 @@ function Nav() {
         <>
 
             <nav className="navbar">
-                <div className='nav-contact-div'>
-                    <div className='ft-contacttext-div'>
+                <div className='pinknav-div'>
+                    <div className='contact-text-div'>
                         <ul>
                             <li className='no-bullet-in-nav'>sapnewaalis@gmail.com</li>
                             <li>+91- 80910 93301</li>
                         </ul>
                     </div>
-                    <div className='ft-icon-div'>
+                    <div className='social-icon-div'>
                         <ul>
-                            <li className='no-bullet-in-nav'> <a href=""> <img src="footerImg/instagram4.png" alt="" id='first-icon' className='nav-icon' /> </a></li>
-                            <li><a href=""> <img src="footerImg/instagram4.png" alt="" id='second-icon' className='nav-icon' /> </a></li>
-                            <li> <a href=""> <img src="footerImg/instagram4.png" alt="" id='tird-icon' className='nav-icon' /> </a></li>
+                            <li id='no-bullet-in-nav'>
+                                <a href=""> <img src="footerImg/instagram4.png" className='nav-icon' />
+                                </a></li>
+                            <li><a href="">
+                                <img src="footerImg/instagram4.png" className='nav-icon' />
+                            </a></li>
+                            <li> <a href="">
+                                <img src="footerImg/instagram4.png" className='nav-icon' />
+                            </a></li>
                         </ul>
                     </div>
                 </div>
 
-                {/* <p id="hindi-text">काबिल</p> */}
-                <section className='nav-links-div'>
-                    <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
+                <section className='greynav-div'>
+                    <div>
+                        <Link to={'/homepage'}> <img src="logo.png" id='logo-desktop' alt="" /></Link>
+                    </div>
+                    <div>
+                        <ul>
+                            <Link to={'/powerOfLearning'}>
+                                <li>Power of Learning  <p>काबिल</p> </li>
+                            </Link>
+                            <li className='plus' id='symbol'>+</li>
 
-                    <ul>
-                        <Link to={'/powerOfLearning'}>
-                            <li>Power of Learning  <p>काबिल</p> </li>
-                        </Link>
-                        <li className='plus' id='symbol'>+</li>
+                            <Link to={'/powerOfEarning'}>
+                                <li>Power of Earning <p>कमाऊ</p></li>
+                            </Link>
+                            <li className='plus' id='symbol' >+</li>
 
-                        <Link to={'/powerOfEarning'}>
-                            <li>Power of Earning <p>कमाऊ</p></li>
-                        </Link>
-                        <li className='plus' id='symbol' >+</li>
+                            <Link to={'/powerOfCollective'}>
+                                <li>Power of Collective <p>कामयाब</p></li>
+                            </Link>
+                            <li className='plus' id='symbol' >=</li>
 
-                        <Link to={'/powerOfCollective'}>
-                            <li>Power of Collective <p>कामयाब</p></li>
-                        </Link>
-                        <li className='plus' id='symbol' >=</li>
-
-                        <Link to={'/freedom'}>
-                            <li className='freedom'>Freedom <p>तरक्की और आज़ादी</p> </li>
-                        </Link>
-                        <Link to={'/getinvolved'}>
-                            <li id='get-involved'>Get involved</li>
-                        </Link>
-                    </ul>
-
-
-                    {/* <button id='nav-get-involved-btn'>Get involved</button> */}
+                            <Link to={'/freedom'}>
+                                <li className='freedom'>Freedom <p>तरक्की और आज़ादी</p> </li>
+                            </Link>
+                            <Link to={'/getinvolved'}>
+                                <li id='get-involved'>Get involved</li>
+                            </Link>
+                        </ul>
+                    </div>
                 </section>
-
-
 
 
                 <section className='hamburger-div'>
