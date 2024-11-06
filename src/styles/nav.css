@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap&subset=devanagari');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hindi {
+    font-family: "Noto";
+    /* font-weight: 900; */
+    /* font-style: normal; */
+    /* color: aquamarine;  */
+}
 
 * {
     margin: 0;
@@ -16,7 +22,6 @@
     z-index: 1000;
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 200px; */
 }
 
 
@@ -27,8 +32,9 @@
     align-items: center;
     justify-content: center;
     font-family: 'Poppins';
-    height: 30px;
+    height: 37px;
 }
+
 
 .contact-text-div ul li {
     margin-right: 40px;
@@ -37,9 +43,10 @@
 }
 
 
+
 .pinknav-div ul {
     display: flex;
-    margin-left: -280px;
+    margin-left: -180px;
 }
 
 .social-icon-div ul {
@@ -73,8 +80,8 @@
 .nav-icon {
     width: 30px;
     height: 30px;
-    /* object-fit: contain; */
 }
+
 
 
 
@@ -107,12 +114,12 @@
     font-weight: 400;
 }
 
-#symbol{
+#symbol {
     margin-top: 5px;
     font-size: 2.1em;
 }
 
-#get-involved{
+#get-involved {
     margin-top: 15px;
 }
 
@@ -143,6 +150,10 @@
 body {
     margin-top: 70px;
 }
+
+
+
+
 
 /* Media Queries */
 @media (max-width: 1450px) {
@@ -180,10 +191,10 @@ body {
     }
 }
 
-@media (min-width: 1451px) and (max-width: 2000px) {
+@media (min-width: 1451px) and (max-width: 1800px) {
     #logo-desktop {
-        height: 70px;
-        /* margin-left: -130px; */
+        height: 50px;
+        /* margin-left: 130px; */
     }
 
     .hamburger-div {
@@ -191,11 +202,55 @@ body {
     }
 }
 
+/* my laptop screen */
+@media (min-width: 1801px) and (max-width: 2000px) {
+    #logo-desktop {
+        height: 50px;
+        margin-left: -70px;
+    }
 
-@media (min-width: 2001px) and (max-width: 4000px) {
+    .contact-text-div {
+        margin-left: -140px;
+    }
+
+    .greynav-div ul li {
+        margin-right: 60px;
+        list-style: none;
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+    .greynav-div ul li p {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+
+    #get-involved {
+        margin-top: 15px;
+        margin-right: -70px;
+        margin-left: 60px;
+    }
+
+
+    /* .contact-text-div ul li {
+        margin-right: 40px;
+        color: white;
+        padding-left: 18px;
+    } */
+
+
+
+    .hamburger-div {
+        display: none;
+    }
+}
+
+
+@media (min-width: 2001px) {
     #logo-desktop {
         height: 70px;
-        margin-left: 270px;
+        margin-left: -170px;
     }
 
     .hamburger-div {

@@ -1,6 +1,6 @@
 import '../styles/powerOfEarning.css'
 import Nav from '../components/Nav'
-import Footer from './Footer';
+import Footer from '../components/Footer.jsx'
 import CarouselPartner from '../components/CarouselPartner'
 
 function PowerOfEarning() {

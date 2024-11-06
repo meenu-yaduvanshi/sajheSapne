@@ -15,17 +15,21 @@ function Nav() {
                         </ul>
                     </div>
                     <div className='social-icon-div'>
+
                         <ul>
-                            <li id='no-bullet-in-nav'>
-                                <a href=""> <img src="footerImg/instagram4.png" className='nav-icon' />
-                                </a></li>
-                            <li><a href="">
-                                <img src="footerImg/instagram4.png" className='nav-icon' />
+                            <li id='no-bullet-in-nav'><a href="https://www.instagram.com/sapnewaali?igsh=MWwwYW9vdTV6MXFrdQ==" target='blanck' >
+                                <img src="socialmediaIcons/newInstagram.png" className='nav-icon' />
                             </a></li>
-                            <li> <a href="">
-                                <img src="footerImg/instagram4.png" className='nav-icon' />
+
+                            <li><a href="https://www.youtube.com/watch?v=02sOhwJnPdo" target='blanck'>
+                                <img src="socialmediaIcons/newYoutube.png" className='nav-icon' />
+                            </a></li>
+
+                            <li> <a href="https://in.linkedin.com/company/sajhe-sapne" target='blanck'>
+                                <img src="socialmediaIcons/newIn.png" className='nav-icon' />
                             </a></li>
                         </ul>
+
                     </div>
                 </div>
 
@@ -36,7 +40,7 @@ function Nav() {
                     <div>
                         <ul>
                             <Link to={'/powerOfLearning'}>
-                                <li>Power of Learning  <p>काबिल</p> </li>
+                                <li>Power of Learning <p>काबिल</p> </li>
                             </Link>
                             <li className='plus' id='symbol'>+</li>
 
